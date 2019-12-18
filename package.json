@@ -11,10 +11,16 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "bcrypt": "^3.0.7",
+        "chai": "^4.2.0",
+        "connect-redis": "^4.0.3",
         "express": "^4.17.1",
         "express-handlebars": "^3.1.0",
+        "express-session": "^1.17.0",
         "lodash": "^4.17.15",
-        "request-promise": "^4.2.5"
+        "passport": "^0.4.1",
+        "request-promise": "^4.2.5",
+        "sinon": "^7.5.0"
     },
     "devDependencies": {
         "mocha": "^6.2.2"
